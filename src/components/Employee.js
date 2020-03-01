@@ -7,10 +7,10 @@ export default function Employee() {
         <UserConsumer>
         {
 
-            (anything) => { return <div> 
+            (anyname) => { return <div> 
                                      
                         
-           { anything.map(same => {
+           { anyname.map(same => {
           return <div > 
             <h2>{same.employee_name}</h2>
             <h2>{same.employee_salary}</h2>
@@ -22,7 +22,7 @@ export default function Employee() {
                                  </div> }          
                      
         }
-        </UserConsumer>         
+        </UserConsumer>       
             )
 
 }

@@ -1,0 +1,66 @@
+.container{
+    border: solid aqua;
+    width: 200px;
+    height: 200px;
+    background-image: url("https://us.hola.com/images/0257-0e198b4d3fed-abb593bd4897-1000/horizontal-1150/mariah-carey-christmas-video.jpg");
+    background-size: cover;
+
+}
+.top {
+    display: flex;
+}
+.bottom{
+    display: flex;
+}
+
+.box3 {
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+.box4 {
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.box2 {
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box1 {
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.container:hover>.top>.box3{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+.container:hover>.top>.box4{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+}
+.container:hover>.bottom>.box2{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+.container:hover>.bottom>.box1{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+}
