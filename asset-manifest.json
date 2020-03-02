@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-mariah-spotify/static/css/main.addb4e42.chunk.css",
+    "main.js": "/react-mariah-spotify/static/js/main.d4077b5b.chunk.js",
+    "main.js.map": "/react-mariah-spotify/static/js/main.d4077b5b.chunk.js.map",
+    "runtime-main.js": "/react-mariah-spotify/static/js/runtime-main.f3dab3de.js",
+    "runtime-main.js.map": "/react-mariah-spotify/static/js/runtime-main.f3dab3de.js.map",
+    "static/js/2.85268578.chunk.js": "/react-mariah-spotify/static/js/2.85268578.chunk.js",
+    "static/js/2.85268578.chunk.js.map": "/react-mariah-spotify/static/js/2.85268578.chunk.js.map",
+    "index.html": "/react-mariah-spotify/index.html",
+    "precache-manifest.c4ea6bd615de12c071007aba1f35601e.js": "/react-mariah-spotify/precache-manifest.c4ea6bd615de12c071007aba1f35601e.js",
+    "service-worker.js": "/react-mariah-spotify/service-worker.js",
+    "static/css/main.addb4e42.chunk.css.map": "/react-mariah-spotify/static/css/main.addb4e42.chunk.css.map",
+    "static/js/2.85268578.chunk.js.LICENSE.txt": "/react-mariah-spotify/static/js/2.85268578.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-mariah-spotify/static/media/logo.8e0f8010.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3dab3de.js",
+    "static/js/2.85268578.chunk.js",
+    "static/css/main.addb4e42.chunk.css",
+    "static/js/main.d4077b5b.chunk.js"
+  ]
+}
