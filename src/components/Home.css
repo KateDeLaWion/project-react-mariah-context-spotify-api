@@ -1,64 +1,84 @@
+.supercontainer{
+    text-align: center;
+}
+
 .container{
-    border: solid aqua;
-    width: 200px;
-    height: 200px;
-    background-image: url("https://us.hola.com/images/0257-0e198b4d3fed-abb593bd4897-1000/horizontal-1150/mariah-carey-christmas-video.jpg");
+    display: inline-block;
+    border: solid black;
+    width: 500px;
+    height: 500px;
+    background-image: url("https://static01.nyt.com/images/2018/01/02/arts/02mariah2/02mariah2-articleLarge.jpg?quality=75&auto=webp&disable=upscale");
     background-size: cover;
 
 }
+
 .top {
     display: flex;
 }
+
 .bottom{
     display: flex;
 }
 
 .box3 {
-    border-style: solid;
-    border-width: 1px;
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    /* upper left box */
+    
+    width: 250px;
+    height: 250px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdiwrrtW4fSkGjgCJdQl36ojzEd3kP-Rk0-1PJrIcdtijMcsZi");
+    background-size: cover;
+    
 }
-
 
 .box4 {
-    border-style: solid;
-    border-width: 1px;
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
+    /* upper right box */
+   
+    width: 250px;
+    height: 250px;
+    background-image: url("https://cdn57.androidauthority.net/wp-content/uploads/2019/03/samsung-galaxy-fold-butterfly-wallpaper-two-wings-blue.png");
+    background-size: cover;
+    
 }
+
 .box2 {
-    border-style: solid;
-    border-width: 1px;
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+    /* lower left box */
+    
+    width: 250px;
+    height: 250px;
+    background-image: url("https://cdn57.androidauthority.net/wp-content/uploads/2019/03/samsung-galaxy-fold-butterfly-wallpaper-two-wings-blue.png");
+    background-size: cover;
+    
 }
+
 .box1 {
-    border-style: solid;
-    border-width: 1px;
-    width: 100px;
-    height: 100px;
-    background-color: green;
+    /* lower right box */
+   
+    width: 250px;
+    height: 250px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdiwrrtW4fSkGjgCJdQl36ojzEd3kP-Rk0-1PJrIcdtijMcsZi");
+    background-size: cover;
+   
 }
+
 .container:hover>.top>.box3{
     transition: width 2s, height 2s, background-color 2s, transform 2s;
     transform: rotate(90deg);
     transform-origin: top left;
 }
+
 .container:hover>.top>.box4{
     transition: width 2s, height 2s, background-color 2s, transform 2s;
     transform: rotate(-90deg);
     transform-origin: top right;
 }
+
 .container:hover>.bottom>.box2{
     transition: width 2s, height 2s, background-color 2s, transform 2s;
 
     transform: rotate(-90deg);
     transform-origin: bottom left;
 }
+
 .container:hover>.bottom>.box1{
     transition: width 2s, height 2s, background-color 2s, transform 2s;
     transform: rotate(90deg);
